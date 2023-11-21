@@ -14,6 +14,7 @@ Gem::Specification.new do |discord_webhooks|
   discord_webhooks.require_paths = ['lib']
   discord_webhooks.add_runtime_dependency 'net-http', '>=0.1.1'
 discord_webhooks.add_runtime_dependency 'json', '>=2.5.1'
+discord_webhooks.add_runtime_dependency 'uri', '>=0.10.1'
   discord_webhooks.homepage = 'https://github.com/Matthiasclee/discordwebhooks'
   discord_webhooks.license = 'CC-BY-NC-SA-4.0'
 end

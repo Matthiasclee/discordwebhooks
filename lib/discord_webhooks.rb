@@ -1,5 +1,5 @@
 module DiscordWebHooks
-  @@files = [] # All gem files
+  @@files = ["message.rb", "embed.rb"] # All gem files
   @@exe = [] # All executables
 
   def self.version
@@ -26,6 +26,7 @@ end
 # Additional Requires
 require 'json'
 require 'net/http'
+require 'uri'
 
 DiscordWebHooks.file_paths(relative:true).each do |f|
   require_relative f
