@@ -1,6 +1,6 @@
 module DiscordWebHooks
   class Message
-    def initialize(text:text,embeds:[])
+    def initialize(text:,embeds:[])
       @text = text
       @message = {
         content: text,
